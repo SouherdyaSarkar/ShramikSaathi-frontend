@@ -3,6 +3,7 @@ import { User2, Globe, HamburgerIcon, Menu, User } from "lucide-react";
 import { HandFistIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
+import logo from '../assets/logo.png'
 
 const Layout = () => {
 
@@ -40,7 +41,7 @@ const Layout = () => {
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-secondary-foreground rounded-lg flex items-center justify-center"
                             style={{
-                                backgroundImage: "url('/src/assets/logo.png')",
+                                backgroundImage: "url(`${logo}`)",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center"
                             }}>
