@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Users, Shield, Heart, ArrowRight, Briefcase, Scale, CreditCard } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext";
-// import heroImage from "@/assets/hero-workers.jpg";
+import heroCrop from "../assets/hero-crop.jpg";
 
 const Landing = () => {
 
@@ -35,7 +35,7 @@ const Landing = () => {
       <section className="relative max-w-[100vw] py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-90"
         style={{
-        backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/src/assets/hero-crop.jpg')", 
+        backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(`${heroCrop}`)", 
         backgroundSize: "cover", 
         backgroundPosition: "center"}}></div>
         <div className="container mx-auto px-6 relative z-10">
