@@ -41,7 +41,7 @@ const Layout = () => {
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-secondary-foreground rounded-lg flex items-center justify-center"
                             style={{
-                                backgroundImage: "url(`${logo}`)",
+                                backgroundImage: `url(${logo})`,
                                 backgroundSize: "cover",
                                 backgroundPosition: "center"
                             }}>
