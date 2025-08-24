@@ -35,7 +35,7 @@ const Landing = () => {
       <section className="relative max-w-[100vw] py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-90"
         style={{
-        backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(`${heroCrop}`)", 
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${heroCrop})`, 
         backgroundSize: "cover", 
         backgroundPosition: "center"}}></div>
         <div className="container mx-auto px-6 relative z-10">
