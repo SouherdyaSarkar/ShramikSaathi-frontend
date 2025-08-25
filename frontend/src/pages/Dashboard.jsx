@@ -117,7 +117,7 @@ const Dashboard = () => {
         <div className="container mx-auto px-6 py-8">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold">Welcome back, Rajesh</h1>
+              <h1 className="text-3xl font-bold">Welcome back, Niru</h1>
               <p className="opacity-80 mt-1">
                 Here's what's happening with your profile today
               </p>
